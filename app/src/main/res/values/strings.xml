@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">las</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Подборки</string>
+    <string name="title_favourites">Избранное</string>
+    <string name="title_news">Новости</string>
+    <string name="title_profile">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
