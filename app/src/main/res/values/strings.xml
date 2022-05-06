@@ -7,4 +7,7 @@
     <string name="title_profile">Профиль</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_searchview_hint">Поиск по новостям</string>
+    <string name="dashboard_searchview_hint">Поиск по подборкам</string>
+    <string name="add_new_dashboard">Создать новую подборку</string>
 </resources>

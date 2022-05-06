@@ -7,36 +7,39 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.oop.laba2.las.GeobusFactoryMap
 import com.oop.laba2.las.databinding.FragmentHomeBinding
+import org.osmdroid.config.Configuration
+import org.osmdroid.util.GeoPoint
+import org.osmdroid.views.CustomZoomButtonsController
+import org.osmdroid.views.MapView
 
 class HomeFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
+    private lateinit var bind: FragmentHomeBinding
+    private lateinit var map: MapView
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        bind = FragmentHomeBinding.inflate(inflater, container, false)
 
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        map = bind.mainMap
+        map.setTileSource(GeobusFactoryMap.GEOBUS_MAP)
+        map.zoomController.setVisibility(CustomZoomButtonsController.Visibility.ALWAYS)
+        map.setMultiTouchControls(true)
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-        return root
+        Configuration.getInstance().userAgentValue = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+
+        val mapController = map.controller
+        mapController.setZoom(20.0)
+
+        val startPoint = GeoPoint(48.042765 , 37.965335)
+        mapController.setCenter(startPoint)
+
+        return bind.root
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
 }

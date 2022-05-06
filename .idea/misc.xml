@@ -8,12 +8,20 @@
         <entry key="app/src/main/res/drawable/ic_news_black_24dp.xml" value="0.162" />
         <entry key="app/src/main/res/drawable/ic_outline_article_24.xml" value="0.162" />
         <entry key="app/src/main/res/drawable/ic_profile_black_24dp.xml" value="0.162" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33061594202898553" />
+        <entry key="app/src/main/res/drawable/ic_test_image_background.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/round_shape.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/rounded_shape.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/dashboard_image_item.xml" value="0.18931159420289856" />
+        <entry key="app/src/main/res/layout/dashboard_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_favourites.xml" value="0.1585144927536232" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1585144927536232" />
-        <entry key="app/src/main/res/layout/fragment_news_item.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/fragment_news_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.17553191489361702" />
         <entry key="app/src/main/res/layout/news_fragment.xml" value="0.33" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_test_image.xml" value="0.175" />
       </map>
     </option>
   </component>

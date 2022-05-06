@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="card_header">
+        <item>Сдаются новые квартиры</item>
+        <item>Паркинг доступен для всех</item>
+        <item>Открыта новая школа</item>
+        <item>Сдаются новые квартиры</item>
+        <item>Паркинг доступен для всех</item>
+        <item>Открыта новая школа</item>
+        <item>Сдаются новые квартиры</item>
+        <item>Паркинг доступен для всех</item>
+        <item>Открыта новая школа</item>
+        <item>Сдаются новые квартиры</item>
+        <item>Паркинг доступен для всех</item>
+        <item>Открыта новая школа</item>
+    </string-array>
+
+    <string-array name="card_sub_header">
+        <item>ЖК Лондон</item>
+        <item>ЖК Донбасс</item>
+        <item>ЖК Москва</item>
+        <item>ЖК Лондон</item>
+        <item>ЖК Донбасс</item>
+        <item>ЖК Москва</item>
+        <item>ЖК Лондон</item>
+        <item>ЖК Донбасс</item>
+        <item>ЖК Москва</item>
+        <item>ЖК Лондон</item>
+        <item>ЖК Донбасс</item>
+        <item>ЖК Москва</item>
+    </string-array>
+
+</resources>
